@@ -1,0 +1,29 @@
+{
+  "name": "web-spoiler-detector",
+  "version": "1.0.0",
+  "description": "detector of spoiler",
+  "main": "dist/index.ts",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "janmbaco@gmail.com",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "eslint": "^8.7.0",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.13.5",
+    "@tensorflow/tfjs-node": "^3.6.1",
+    "chowdown": "^1.2.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "tsyringe": "^4.6.0"
+  }
+}
